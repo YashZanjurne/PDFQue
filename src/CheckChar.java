@@ -19,11 +19,8 @@ public class CheckChar {
         } else {
             System.out.println(ch + " is a symbol or digit.");
         }
-
-
         return false;
     }
-
         public static void main(String [] args){
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter a value");
